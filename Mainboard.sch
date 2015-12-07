@@ -6088,6 +6088,51 @@ W = angled&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="b3noxley">
+<packages>
+<package name="HK3D-1.7L">
+<polygon width="0.127" layer="21">
+<vertex x="-7.5" y="10.5"/>
+<vertex x="-7.5" y="7"/>
+<vertex x="-4.5" y="7"/>
+<vertex x="-4.5" y="-7"/>
+<vertex x="-7.5" y="-7"/>
+<vertex x="-7.5" y="-10.5"/>
+<vertex x="7.5" y="-10.5"/>
+<vertex x="7.5" y="-7"/>
+<vertex x="4.5" y="-7"/>
+<vertex x="4.5" y="7"/>
+<vertex x="7.5" y="7"/>
+<vertex x="7.5" y="10.5"/>
+</polygon>
+<hole x="-6" y="8.75" drill="3"/>
+<hole x="6" y="8.75" drill="3"/>
+<hole x="6" y="-8.75" drill="3"/>
+<hole x="-6" y="-8.75" drill="3"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SERVO">
+<circle x="0" y="0" radius="10.77630625" width="0.254" layer="94"/>
+<text x="-7.62" y="-6.35" size="12.7" layer="94">M</text>
+<circle x="0" y="0" radius="11.70881875" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SERVO">
+<gates>
+<gate name="G$1" symbol="SERVO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HK3D-1.7L">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6218,6 +6263,9 @@ W = angled&lt;p&gt;
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="VDD" device=""/>
 <part name="C22" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100nF"/>
+<part name="U$7" library="b3noxley" deviceset="SERVO" device=""/>
+<part name="U$9" library="b3noxley" deviceset="SERVO" device=""/>
+<part name="U$10" library="b3noxley" deviceset="SERVO" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6384,6 +6432,8 @@ W = angled&lt;p&gt;
 <instance part="GND26" gate="1" x="63.5" y="190.5"/>
 <instance part="SUPPLY2" gate="G$1" x="55.88" y="218.44"/>
 <instance part="C22" gate="G$1" x="-12.7" y="200.66" rot="R180"/>
+<instance part="U$9" gate="G$1" x="381" y="152.4"/>
+<instance part="U$10" gate="G$1" x="411.48" y="152.4"/>
 </instances>
 <busses>
 </busses>
