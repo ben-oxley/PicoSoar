@@ -6790,13 +6790,13 @@ Distributor Buerklin, 11G810</description>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="supply2" deviceset="VDD" device=""/>
 <part name="SJ1" library="SparkFun-Passives" deviceset="JUMPER-PAD-3-2OF3_NC_BY_TRACE" device="_SMALL"/>
-<part name="C1" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="2.2nF"/>
-<part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
+<part name="C1_MPU_10" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
+<part name="C2_MPU_20" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="2.2nF"/>
+<part name="C3_MPU_3" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
 <part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="22R"/>
 <part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="22R"/>
-<part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="4.7uF"/>
-<part name="C5" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1uF"/>
+<part name="C4_MCP73831_4" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="4.7uF"/>
+<part name="C5_MCP73831_4" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1uF"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="470R"/>
@@ -6813,7 +6813,7 @@ Distributor Buerklin, 11G810</description>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="U$1" library="zetex" deviceset="USBLC6-4" device=""/>
 <part name="U$6" library="zetex" deviceset="USBLC6-4" device=""/>
-<part name="C6" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="2.2nF"/>
+<part name="C6_USB_VBUS" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="2.2nF"/>
 <part name="U$8" library="SWP" deviceset="RFM69" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="supply2" deviceset="VDD" device=""/>
@@ -6823,41 +6823,41 @@ Distributor Buerklin, 11G810</description>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="R12" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="100K"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
-<part name="C7" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100n"/>
+<part name="C7_RESET_DEBOUNCE" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100n"/>
 <part name="SUPPLY10" library="supply2" deviceset="+5V" device=""/>
 <part name="U1" library="Ava" deviceset="LM2937IMP-5.0" device="" value="LM2937IMP-3.3"/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="supply2" deviceset="VDD" device=""/>
-<part name="C8" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
-<part name="C9" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1uF"/>
-<part name="C10" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1uF"/>
-<part name="C11" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
+<part name="C8_LM2937_1" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
+<part name="C9_LM2937_1" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1uF"/>
+<part name="C10_LM2937_3" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1uF"/>
+<part name="C11_LM2937_3" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="C12" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="2.2nF"/>
-<part name="C13" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="2.2nF"/>
-<part name="C14" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="2.2nF"/>
+<part name="C12_RFM69_8" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="2.2nF"/>
+<part name="C13_RFM69_8" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="2.2nF"/>
+<part name="C14_RFM69_1" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="2.2nF"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="IC1" library="Measurement-Specialties" deviceset="MS5611-01BA03" device=""/>
-<part name="C15" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100nF"/>
+<part name="C15_MS5611_1" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100nF"/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
-<part name="C16" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="2.2nF"/>
+<part name="C16_STM32_13" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="2.2nF"/>
 <part name="SUPPLY15" library="supply2" deviceset="VDD" device=""/>
 <part name="IC2" library="microchip-update-2" deviceset="MCP73831" device=""/>
 <part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="2K"/>
 <part name="SUPPLY16" library="supply2" deviceset="+4.1V" device="" value="+3.7V"/>
 <part name="SUPPLY17" library="supply2" deviceset="+4.1V" device="" value="+3.7V"/>
-<part name="C17" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100n"/>
-<part name="C18" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100n"/>
-<part name="C19" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100n"/>
-<part name="C20" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100n"/>
+<part name="C17_STM32_32" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100n"/>
+<part name="C18_STM32_48" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100n"/>
+<part name="C19_STM32_64" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100n"/>
+<part name="C20_STM32_19" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100n"/>
 <part name="D2" library="diode" deviceset="BAT60J" device=""/>
 <part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="22R"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="Q1" library="transistor-small-signal" deviceset="BSS84" device=""/>
 <part name="SUPPLY12" library="supply2" deviceset="+5V" device=""/>
-<part name="C21" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
+<part name="C21_MCP73831_VSS" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
 <part name="SUPPLY18" library="supply2" deviceset="VDD" device=""/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="D3" library="diode" deviceset="BAT60J" device=""/>
@@ -6884,7 +6884,7 @@ Distributor Buerklin, 11G810</description>
 <part name="R22" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="100K"/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="VDD" device=""/>
-<part name="C22" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100nF"/>
+<part name="C22_JTAG_VCC" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100nF"/>
 <part name="U$7" library="b3noxley" deviceset="SERVO" device=""/>
 <part name="U$9" library="b3noxley" deviceset="SERVO" device=""/>
 <part name="JP4" library="SparkFun-Connectors" deviceset="M08" device="BM08B-SRSS-TB"/>
@@ -6949,13 +6949,13 @@ Distributor Buerklin, 11G810</description>
 <instance part="GND9" gate="1" x="276.86" y="99.06"/>
 <instance part="SUPPLY8" gate="G$1" x="276.86" y="142.24"/>
 <instance part="SJ1" gate="G$1" x="332.74" y="121.92"/>
-<instance part="C1" gate="G$1" x="256.54" y="116.84"/>
-<instance part="C2" gate="G$1" x="264.16" y="116.84"/>
-<instance part="C3" gate="G$1" x="248.92" y="116.84"/>
+<instance part="C1_MPU_10" gate="G$1" x="256.54" y="116.84"/>
+<instance part="C2_MPU_20" gate="G$1" x="264.16" y="116.84"/>
+<instance part="C3_MPU_3" gate="G$1" x="248.92" y="116.84"/>
 <instance part="R7" gate="G$1" x="279.4" y="50.8" rot="R180"/>
 <instance part="R8" gate="G$1" x="279.4" y="48.26" rot="R180"/>
-<instance part="C4" gate="G$1" x="276.86" y="25.4"/>
-<instance part="C5" gate="G$1" x="271.78" y="25.4"/>
+<instance part="C4_MCP73831_4" gate="G$1" x="276.86" y="25.4"/>
+<instance part="C5_MCP73831_4" gate="G$1" x="271.78" y="25.4"/>
 <instance part="GND10" gate="1" x="271.78" y="20.32"/>
 <instance part="GND12" gate="1" x="279.4" y="58.42" rot="R180"/>
 <instance part="R9" gate="G$1" x="276.86" y="43.18" rot="R180"/>
@@ -6982,7 +6982,7 @@ Distributor Buerklin, 11G810</description>
 <instance part="GND13" gate="1" x="406.4" y="193.04"/>
 <instance part="U$1" gate="G$1" x="421.64" y="218.44"/>
 <instance part="U$6" gate="G$1" x="304.8" y="50.8"/>
-<instance part="C6" gate="G$1" x="419.1" y="193.04"/>
+<instance part="C6_USB_VBUS" gate="G$1" x="419.1" y="193.04"/>
 <instance part="U$8" gate="G$1" x="396.24" y="43.18"/>
 <instance part="GND14" gate="1" x="81.28" y="233.68"/>
 <instance part="SUPPLY9" gate="G$1" x="93.98" y="236.22" rot="R180"/>
@@ -6992,41 +6992,41 @@ Distributor Buerklin, 11G810</description>
 <instance part="GND16" gate="1" x="22.86" y="116.84"/>
 <instance part="R12" gate="G$1" x="104.14" y="134.62" rot="MR180"/>
 <instance part="GND15" gate="1" x="111.76" y="132.08" rot="MR0"/>
-<instance part="C7" gate="G$1" x="30.48" y="127"/>
+<instance part="C7_RESET_DEBOUNCE" gate="G$1" x="30.48" y="127"/>
 <instance part="SUPPLY10" gate="+5V" x="271.78" y="71.12"/>
 <instance part="U1" gate="A" x="129.54" y="203.2"/>
 <instance part="GND17" gate="1" x="106.68" y="190.5"/>
 <instance part="SUPPLY13" gate="G$1" x="152.4" y="208.28"/>
-<instance part="C8" gate="G$1" x="96.52" y="198.12"/>
-<instance part="C9" gate="G$1" x="101.6" y="198.12"/>
-<instance part="C10" gate="G$1" x="152.4" y="193.04"/>
-<instance part="C11" gate="G$1" x="160.02" y="193.04"/>
+<instance part="C8_LM2937_1" gate="G$1" x="96.52" y="198.12"/>
+<instance part="C9_LM2937_1" gate="G$1" x="101.6" y="198.12"/>
+<instance part="C10_LM2937_3" gate="G$1" x="152.4" y="193.04"/>
+<instance part="C11_LM2937_3" gate="G$1" x="160.02" y="193.04"/>
 <instance part="GND18" gate="1" x="152.4" y="185.42"/>
 <instance part="GND19" gate="1" x="375.92" y="20.32"/>
 <instance part="GND4" gate="1" x="436.88" y="38.1"/>
-<instance part="C12" gate="G$1" x="358.14" y="53.34"/>
-<instance part="C13" gate="G$1" x="365.76" y="53.34"/>
-<instance part="C14" gate="G$1" x="431.8" y="45.72" rot="R90"/>
+<instance part="C12_RFM69_8" gate="G$1" x="358.14" y="53.34"/>
+<instance part="C13_RFM69_8" gate="G$1" x="365.76" y="53.34"/>
+<instance part="C14_RFM69_1" gate="G$1" x="431.8" y="45.72" rot="R90"/>
 <instance part="GND20" gate="1" x="172.72" y="78.74"/>
 <instance part="IC1" gate="G$1" x="187.96" y="30.48"/>
-<instance part="C15" gate="G$1" x="160.02" y="25.4" rot="R180"/>
+<instance part="C15_MS5611_1" gate="G$1" x="160.02" y="25.4" rot="R180"/>
 <instance part="GND21" gate="1" x="106.68" y="15.24"/>
-<instance part="C16" gate="G$1" x="101.6" y="12.7" rot="R90"/>
+<instance part="C16_STM32_13" gate="G$1" x="101.6" y="12.7" rot="R90"/>
 <instance part="SUPPLY15" gate="G$1" x="93.98" y="7.62" rot="R180"/>
 <instance part="IC2" gate="G$1" x="294.64" y="27.94"/>
 <instance part="R4" gate="G$1" x="322.58" y="27.94"/>
 <instance part="SUPPLY16" gate="P" x="307.34" y="38.1"/>
 <instance part="SUPPLY17" gate="P" x="86.36" y="213.36"/>
-<instance part="C17" gate="G$1" x="43.18" y="152.4" rot="R90"/>
-<instance part="C18" gate="G$1" x="43.18" y="147.32" rot="R90"/>
-<instance part="C19" gate="G$1" x="43.18" y="142.24" rot="R90"/>
-<instance part="C20" gate="G$1" x="43.18" y="137.16" rot="R90"/>
+<instance part="C17_STM32_32" gate="G$1" x="43.18" y="152.4" rot="R90"/>
+<instance part="C18_STM32_48" gate="G$1" x="43.18" y="147.32" rot="R90"/>
+<instance part="C19_STM32_64" gate="G$1" x="43.18" y="142.24" rot="R90"/>
+<instance part="C20_STM32_19" gate="G$1" x="43.18" y="137.16" rot="R90"/>
 <instance part="D2" gate="G$1" x="91.44" y="205.74" rot="R270"/>
 <instance part="R14" gate="G$1" x="81.28" y="190.5" rot="R270"/>
 <instance part="GND11" gate="1" x="81.28" y="180.34"/>
 <instance part="Q1" gate="G$1" x="86.36" y="200.66" rot="MR180"/>
 <instance part="SUPPLY12" gate="+5V" x="91.44" y="213.36"/>
-<instance part="C21" gate="G$1" x="332.74" y="22.86" rot="R90"/>
+<instance part="C21_MCP73831_VSS" gate="G$1" x="332.74" y="22.86" rot="R90"/>
 <instance part="SUPPLY18" gate="G$1" x="35.56" y="86.36"/>
 <instance part="GND22" gate="1" x="40.64" y="86.36" rot="R180"/>
 <instance part="D3" gate="G$1" x="271.78" y="60.96" rot="R90"/>
@@ -7053,7 +7053,7 @@ Distributor Buerklin, 11G810</description>
 <instance part="R22" gate="G$1" x="55.88" y="203.2" rot="R90"/>
 <instance part="GND26" gate="1" x="63.5" y="190.5"/>
 <instance part="SUPPLY2" gate="G$1" x="55.88" y="218.44"/>
-<instance part="C22" gate="G$1" x="-12.7" y="200.66" rot="R180"/>
+<instance part="C22_JTAG_VCC" gate="G$1" x="-12.7" y="200.66" rot="R180"/>
 <instance part="U$7" gate="G$1" x="363.22" y="149.86"/>
 <instance part="U$9" gate="G$1" x="398.78" y="149.86"/>
 <instance part="JP4" gate="G$1" x="27.94" y="73.66"/>
@@ -7080,17 +7080,17 @@ Distributor Buerklin, 11G810</description>
 <junction x="45.72" y="121.92"/>
 <junction x="45.72" y="111.76"/>
 <junction x="45.72" y="116.84"/>
-<pinref part="C17" gate="G$1" pin="1"/>
+<pinref part="C17_STM32_32" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="152.4" x2="38.1" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="147.32" x2="38.1" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="142.24" x2="38.1" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="137.16" x2="38.1" y2="127" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="127" x2="45.72" y2="127" width="0.1524" layer="91"/>
-<pinref part="C20" gate="G$1" pin="1"/>
+<pinref part="C20_STM32_19" gate="G$1" pin="1"/>
 <junction x="38.1" y="137.16"/>
-<pinref part="C19" gate="G$1" pin="1"/>
+<pinref part="C19_STM32_64" gate="G$1" pin="1"/>
 <junction x="38.1" y="142.24"/>
-<pinref part="C18" gate="G$1" pin="1"/>
+<pinref part="C18_STM32_48" gate="G$1" pin="1"/>
 <junction x="38.1" y="147.32"/>
 </segment>
 <segment>
@@ -7123,21 +7123,21 @@ Distributor Buerklin, 11G810</description>
 <wire x1="332.74" y1="116.84" x2="332.74" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="332.74" y1="101.6" x2="276.86" y2="101.6" width="0.1524" layer="91"/>
 <junction x="276.86" y="101.6"/>
-<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C2_MPU_20" gate="G$1" pin="2"/>
 <wire x1="264.16" y1="114.3" x2="264.16" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="101.6" x2="276.86" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="C1_MPU_10" gate="G$1" pin="2"/>
 <wire x1="256.54" y1="114.3" x2="256.54" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="101.6" x2="264.16" y2="101.6" width="0.1524" layer="91"/>
 <junction x="264.16" y="101.6"/>
-<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="C3_MPU_3" gate="G$1" pin="2"/>
 <wire x1="248.92" y1="114.3" x2="248.92" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="101.6" x2="256.54" y2="101.6" width="0.1524" layer="91"/>
 <junction x="256.54" y="101.6"/>
 </segment>
 <segment>
-<pinref part="C4" gate="G$1" pin="2"/>
-<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="C4_MCP73831_4" gate="G$1" pin="2"/>
+<pinref part="C5_MCP73831_4" gate="G$1" pin="2"/>
 <wire x1="271.78" y1="22.86" x2="276.86" y2="22.86" width="0.1524" layer="91"/>
 <junction x="276.86" y="22.86"/>
 <pinref part="GND10" gate="1" pin="GND"/>
@@ -7179,7 +7179,7 @@ Distributor Buerklin, 11G810</description>
 <wire x1="408.94" y1="218.44" x2="406.4" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="406.4" y1="218.44" x2="406.4" y2="198.12" width="0.1524" layer="91"/>
 <junction x="406.4" y="198.12"/>
-<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="C6_USB_VBUS" gate="G$1" pin="1"/>
 <junction x="419.1" y="198.12"/>
 </segment>
 <segment>
@@ -7195,7 +7195,7 @@ Distributor Buerklin, 11G810</description>
 <pinref part="GND16" gate="1" pin="GND"/>
 <wire x1="22.86" y1="121.92" x2="22.86" y2="119.38" width="0.1524" layer="91"/>
 <junction x="22.86" y="121.92"/>
-<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="C7_RESET_DEBOUNCE" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="124.46" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="121.92" x2="25.4" y2="121.92" width="0.1524" layer="91"/>
 <junction x="25.4" y="121.92"/>
@@ -7214,15 +7214,15 @@ Distributor Buerklin, 11G810</description>
 <wire x1="106.68" y1="195.58" x2="106.68" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="195.58" x2="106.68" y2="195.58" width="0.1524" layer="91"/>
 <junction x="106.68" y="195.58"/>
-<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="C8_LM2937_1" gate="G$1" pin="2"/>
 <wire x1="106.68" y1="195.58" x2="101.6" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="C9_LM2937_1" gate="G$1" pin="2"/>
 <junction x="101.6" y="195.58"/>
 <wire x1="101.6" y1="195.58" x2="96.52" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C11" gate="G$1" pin="2"/>
-<pinref part="C10" gate="G$1" pin="2"/>
+<pinref part="C11_LM2937_3" gate="G$1" pin="2"/>
+<pinref part="C10_LM2937_3" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="190.5" x2="152.4" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="GND18" gate="1" pin="GND"/>
 <wire x1="152.4" y1="187.96" x2="152.4" y2="190.5" width="0.1524" layer="91"/>
@@ -7237,8 +7237,8 @@ Distributor Buerklin, 11G810</description>
 <wire x1="375.92" y1="27.94" x2="375.92" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="375.92" y1="30.48" x2="358.14" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="358.14" y1="30.48" x2="358.14" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="C13" gate="G$1" pin="2"/>
-<pinref part="C12" gate="G$1" pin="2"/>
+<pinref part="C13_RFM69_8" gate="G$1" pin="2"/>
+<pinref part="C12_RFM69_8" gate="G$1" pin="2"/>
 <junction x="358.14" y="50.8"/>
 <wire x1="358.14" y1="50.8" x2="365.76" y2="50.8" width="0.1524" layer="91"/>
 </segment>
@@ -7251,7 +7251,7 @@ Distributor Buerklin, 11G810</description>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="436.88" y1="40.64" x2="436.88" y2="45.72" width="0.1524" layer="91"/>
 <junction x="436.88" y="50.8"/>
-<pinref part="C14" gate="G$1" pin="2"/>
+<pinref part="C14_RFM69_1" gate="G$1" pin="2"/>
 <wire x1="436.88" y1="45.72" x2="436.88" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="434.34" y1="45.72" x2="436.88" y2="45.72" width="0.1524" layer="91"/>
 <junction x="436.88" y="45.72"/>
@@ -7282,7 +7282,7 @@ Distributor Buerklin, 11G810</description>
 <pinref part="GND8" gate="1" pin="GND"/>
 <pinref part="IC1" gate="G$1" pin="GND"/>
 <wire x1="170.18" y1="15.24" x2="170.18" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="C15" gate="G$1" pin="1"/>
+<pinref part="C15_MS5611_1" gate="G$1" pin="1"/>
 <wire x1="170.18" y1="20.32" x2="160.02" y2="20.32" width="0.1524" layer="91"/>
 <junction x="170.18" y="20.32"/>
 </segment>
@@ -7290,7 +7290,7 @@ Distributor Buerklin, 11G810</description>
 <pinref part="GND21" gate="1" pin="GND"/>
 <pinref part="STM32F401RBT6" gate="AN_POWER" pin="VSSA"/>
 <wire x1="106.68" y1="17.78" x2="104.14" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="2"/>
+<pinref part="C16_STM32_13" gate="G$1" pin="2"/>
 <wire x1="104.14" y1="17.78" x2="93.98" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="12.7" x2="104.14" y2="17.78" width="0.1524" layer="91"/>
 <junction x="104.14" y="17.78"/>
@@ -7310,7 +7310,7 @@ Distributor Buerklin, 11G810</description>
 <junction x="309.88" y="22.86"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <junction x="327.66" y="27.94"/>
-<pinref part="C21" gate="G$1" pin="1"/>
+<pinref part="C21_MCP73831_VSS" gate="G$1" pin="1"/>
 <junction x="327.66" y="22.86"/>
 </segment>
 <segment>
@@ -7376,7 +7376,7 @@ Distributor Buerklin, 11G810</description>
 <wire x1="2.54" y1="200.66" x2="-7.62" y2="200.66" width="0.1524" layer="91"/>
 <label x="-5.08" y="200.66" size="1.778" layer="95"/>
 <junction x="-7.62" y="200.66"/>
-<pinref part="C22" gate="G$1" pin="1"/>
+<pinref part="C22_JTAG_VCC" gate="G$1" pin="1"/>
 <wire x1="-7.62" y1="195.58" x2="-12.7" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -7403,10 +7403,10 @@ Distributor Buerklin, 11G810</description>
 <junction x="45.72" y="142.24"/>
 <junction x="45.72" y="147.32"/>
 <junction x="45.72" y="152.4"/>
-<pinref part="C17" gate="G$1" pin="2"/>
-<pinref part="C18" gate="G$1" pin="2"/>
-<pinref part="C19" gate="G$1" pin="2"/>
-<pinref part="C20" gate="G$1" pin="2"/>
+<pinref part="C17_STM32_32" gate="G$1" pin="2"/>
+<pinref part="C18_STM32_48" gate="G$1" pin="2"/>
+<pinref part="C19_STM32_64" gate="G$1" pin="2"/>
+<pinref part="C20_STM32_19" gate="G$1" pin="2"/>
 <junction x="45.72" y="137.16"/>
 </segment>
 <segment>
@@ -7415,9 +7415,9 @@ Distributor Buerklin, 11G810</description>
 <wire x1="373.38" y1="60.96" x2="373.38" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="373.38" y1="58.42" x2="373.38" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="373.38" y1="55.88" x2="375.92" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="C12" gate="G$1" pin="1"/>
+<pinref part="C12_RFM69_8" gate="G$1" pin="1"/>
 <wire x1="373.38" y1="58.42" x2="365.76" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="C13" gate="G$1" pin="1"/>
+<pinref part="C13_RFM69_8" gate="G$1" pin="1"/>
 <junction x="365.76" y="58.42"/>
 <wire x1="365.76" y1="58.42" x2="358.14" y2="58.42" width="0.1524" layer="91"/>
 <junction x="373.38" y="58.42"/>
@@ -7448,7 +7448,7 @@ Distributor Buerklin, 11G810</description>
 <wire x1="332.74" y1="127" x2="332.74" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="332.74" y1="139.7" x2="276.86" y2="139.7" width="0.1524" layer="91"/>
 <junction x="276.86" y="139.7"/>
-<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="C3_MPU_3" gate="G$1" pin="1"/>
 <wire x1="248.92" y1="121.92" x2="248.92" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="139.7" x2="276.86" y2="139.7" width="0.1524" layer="91"/>
 </segment>
@@ -7474,9 +7474,9 @@ Distributor Buerklin, 11G810</description>
 <pinref part="SUPPLY13" gate="G$1" pin="VDD"/>
 <wire x1="149.86" y1="198.12" x2="152.4" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="198.12" x2="152.4" y2="205.74" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="1"/>
+<pinref part="C10_LM2937_3" gate="G$1" pin="1"/>
 <junction x="152.4" y="198.12"/>
-<pinref part="C11" gate="G$1" pin="1"/>
+<pinref part="C11_LM2937_3" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="198.12" x2="152.4" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -7492,12 +7492,12 @@ Distributor Buerklin, 11G810</description>
 <wire x1="170.18" y1="25.4" x2="170.18" y2="30.48" width="0.1524" layer="91"/>
 <junction x="170.18" y="30.48"/>
 <junction x="170.18" y="35.56"/>
-<pinref part="C15" gate="G$1" pin="2"/>
+<pinref part="C15_MS5611_1" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="27.94" x2="160.02" y2="30.48" width="0.1524" layer="91"/>
 <junction x="160.02" y="30.48"/>
 </segment>
 <segment>
-<pinref part="C16" gate="G$1" pin="1"/>
+<pinref part="C16_STM32_13" gate="G$1" pin="1"/>
 <pinref part="STM32F401RBT6" gate="AN_POWER" pin="VDDA"/>
 <wire x1="96.52" y1="12.7" x2="93.98" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="SUPPLY15" gate="G$1" pin="VDD"/>
@@ -7575,7 +7575,7 @@ Distributor Buerklin, 11G810</description>
 <label x="-7.62" y="205.74" size="1.778" layer="95"/>
 <pinref part="SUPPLY4" gate="G$1" pin="VDD"/>
 <wire x1="-7.62" y1="205.74" x2="-7.62" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="C22" gate="G$1" pin="2"/>
+<pinref part="C22_JTAG_VCC" gate="G$1" pin="2"/>
 <wire x1="-12.7" y1="203.2" x2="-12.7" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="205.74" x2="-7.62" y2="205.74" width="0.1524" layer="91"/>
 <junction x="-7.62" y="205.74"/>
@@ -7776,14 +7776,14 @@ Distributor Buerklin, 11G810</description>
 <net name="N$18" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="REGOUT"/>
-<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="C1_MPU_10" gate="G$1" pin="1"/>
 <wire x1="281.94" y1="124.46" x2="256.54" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="124.46" x2="256.54" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="C2_MPU_20" gate="G$1" pin="1"/>
 <pinref part="U3" gate="G$1" pin="CPOUT"/>
 <wire x1="281.94" y1="121.92" x2="264.16" y2="121.92" width="0.1524" layer="91"/>
 </segment>
@@ -7876,7 +7876,7 @@ Distributor Buerklin, 11G810</description>
 <wire x1="434.34" y1="218.44" x2="436.88" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="436.88" y1="218.44" x2="436.88" y2="200.66" width="0.1524" layer="91"/>
 <junction x="436.88" y="200.66"/>
-<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="C6_USB_VBUS" gate="G$1" pin="2"/>
 <wire x1="419.1" y1="190.5" x2="426.72" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="426.72" y1="190.5" x2="426.72" y2="200.66" width="0.1524" layer="91"/>
 <junction x="426.72" y="200.66"/>
@@ -7950,7 +7950,7 @@ Distributor Buerklin, 11G810</description>
 <wire x1="22.86" y1="134.62" x2="35.56" y2="134.62" width="0.1524" layer="91"/>
 <junction x="22.86" y="134.62"/>
 <label x="27.94" y="134.62" size="1.778" layer="95"/>
-<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="C7_RESET_DEBOUNCE" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="132.08" x2="25.4" y2="132.08" width="0.1524" layer="91"/>
 <junction x="25.4" y="132.08"/>
 </segment>
@@ -8020,7 +8020,7 @@ Distributor Buerklin, 11G810</description>
 <net name="RFM_RST" class="0">
 <segment>
 <pinref part="U$8" gate="G$1" pin="RESET"/>
-<pinref part="C14" gate="G$1" pin="1"/>
+<pinref part="C14_RFM69_1" gate="G$1" pin="1"/>
 <wire x1="426.72" y1="45.72" x2="416.56" y2="45.72" width="0.1524" layer="91"/>
 <label x="416.56" y="45.72" size="1.778" layer="95"/>
 </segment>
@@ -8111,8 +8111,8 @@ Distributor Buerklin, 11G810</description>
 <pinref part="U1" gate="A" pin="VIN"/>
 <wire x1="109.22" y1="203.2" x2="101.6" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="203.2" x2="96.52" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="1"/>
-<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="C8_LM2937_1" gate="G$1" pin="1"/>
+<pinref part="C9_LM2937_1" gate="G$1" pin="1"/>
 <junction x="101.6" y="203.2"/>
 <wire x1="91.44" y1="203.2" x2="96.52" y2="203.2" width="0.1524" layer="91"/>
 <junction x="96.52" y="203.2"/>
@@ -8175,9 +8175,9 @@ Distributor Buerklin, 11G810</description>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="C4_MCP73831_4" gate="G$1" pin="1"/>
 <junction x="276.86" y="30.48"/>
-<pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="C5_MCP73831_4" gate="G$1" pin="1"/>
 <junction x="271.78" y="30.48"/>
 <wire x1="271.78" y1="30.48" x2="276.86" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="53.34" x2="271.78" y2="43.18" width="0.1524" layer="91"/>
@@ -8362,7 +8362,7 @@ Distributor Buerklin, 11G810</description>
 <wire x1="325.12" y1="33.02" x2="322.58" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="+"/>
 <wire x1="322.58" y1="33.02" x2="322.58" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="C21" gate="G$1" pin="2"/>
+<pinref part="C21_MCP73831_VSS" gate="G$1" pin="2"/>
 <wire x1="322.58" y1="30.48" x2="335.28" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="335.28" y1="30.48" x2="335.28" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="S1" gate="1" pin="P"/>
