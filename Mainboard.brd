@@ -1398,7 +1398,7 @@ design rules under a new name.</description>
 </element>
 <element name="IC1" library="Measurement-Specialties" package="SON125P300X500X100-8N" value="MS5611-01BA03" x="92.7862" y="32.1564"/>
 <element name="IC2" library="microchip-update-2" package="SOT23-5L" value="MCP73831" x="58.9788" y="44.5262"/>
-<element name="J$1" library="SparkFun-Connectors" package="SMA-EDGE" value="SMA_EDGE" x="159.4358" y="31.3182" rot="R90"/>
+<element name="J$1" library="SparkFun-Connectors" package="SMA-EDGE" value="SMA_EDGE" x="159.639" y="20.8534" rot="R90"/>
 <element name="J1" library="SparkFun-Connectors" package="JST-2-SMD" value="" x="82.2452" y="56.769" rot="MR180">
 <attribute name="BTM_NEG" value="-" x="82.2452" y="56.769" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="BTM_POS" value="+" x="82.2452" y="56.769" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -1453,7 +1453,7 @@ design rules under a new name.</description>
 <element name="U$4" library="Ava" package="JTI_ANTENNA-1575AT43A40" value="JTI_ANTENNA-1575AT43A40" x="16.3576" y="41.91" rot="R90"/>
 <element name="U$5" library="Ava" package="UBLOX_NEO-6P" value="UBLOX_NEO-6" x="21.8948" y="29.1846" rot="R90"/>
 <element name="U$6" library="zetex" package="SOT23-6" value="USBLC6-4" x="97.155" y="26.6954" rot="R90"/>
-<element name="U$8" library="SWP" package="RFM69SMD" value="RFM69" x="143.4846" y="28.2956" rot="R180"/>
+<element name="U$8" library="SWP" package="RFM69SMD" value="RFM69" x="144.0434" y="28.9814"/>
 <element name="U1" library="Ava" package="SOT230P700X180-4N" value="LM2937IMP-3.3" x="68.3768" y="46.3804" rot="R270">
 <attribute name="MPN" value="LM2937IMP-5.0" x="68.3768" y="46.3804" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SUPPLIER" value="Microchip" x="68.3768" y="46.3804" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1690,12 +1690,12 @@ design rules under a new name.</description>
 <wire x1="76.18" y1="18.3842" x2="76.18" y2="19.03" width="1.016" layer="16"/>
 <wire x1="82.53" y1="19.03" x2="82.55" y2="19.01" width="1.016" layer="16"/>
 <wire x1="82.55" y1="19.01" x2="82.55" y2="15.4432" width="1.016" layer="16"/>
-<wire x1="139.7618" y1="38.5826" x2="159.4358" y2="31.3182" width="0" layer="19" extent="1-1"/>
+<wire x1="139.7618" y1="38.5826" x2="159.639" y2="20.8534" width="0" layer="19" extent="1-1"/>
 <wire x1="135.6724" y1="38.7096" x2="139.7618" y2="38.5826" width="0" layer="19" extent="1-1"/>
-<wire x1="133.8846" y1="35.6956" x2="135.6724" y2="38.7096" width="0" layer="19" extent="1-1"/>
-<wire x1="133.8846" y1="31.6956" x2="133.8846" y2="35.6956" width="0" layer="19" extent="1-1"/>
-<wire x1="130.9624" y1="23.1504" x2="133.8846" y2="31.6956" width="0" layer="19" extent="1-1"/>
-<wire x1="133.8846" y1="21.6956" x2="130.9624" y2="23.1504" width="0" layer="19" extent="1-1"/>
+<wire x1="153.6434" y1="21.5814" x2="135.6724" y2="38.7096" width="0" layer="19" extent="1-1"/>
+<wire x1="153.6434" y1="25.5814" x2="153.6434" y2="21.5814" width="0" layer="19" extent="1-1"/>
+<wire x1="130.9624" y1="23.1504" x2="153.6434" y2="25.5814" width="0" layer="19" extent="1-1"/>
+<wire x1="153.6434" y1="35.5814" x2="130.9624" y2="23.1504" width="0" layer="19" extent="1-1"/>
 <wire x1="123.17" y1="45.7" x2="135.6724" y2="38.7096" width="0" layer="19" extent="1-1"/>
 <wire x1="69.0118" y1="44.842" x2="68.961" y2="47.5996" width="0" layer="19" extent="1-1"/>
 <wire x1="75.9864" y1="38.548" x2="77.216" y2="41.3766" width="0" layer="19" extent="1-1"/>
@@ -1865,7 +1865,17 @@ design rules under a new name.</description>
 <wire x1="77.5208" y1="21.1074" x2="76.0222" y2="21.1074" width="1.016" layer="16"/>
 <wire x1="76.0222" y1="21.1074" x2="74.93" y2="20.0152" width="1.016" layer="16"/>
 <wire x1="74.93" y1="20.0152" x2="74.93" y2="19.03" width="1.016" layer="16"/>
-<wire x1="137.9618" y1="38.5826" x2="153.5846" y2="35.5956" width="0" layer="19" extent="1-1"/>
+<wire x1="91.5862" y1="34.0314" x2="91.5862" y2="32.7814" width="0.3048" layer="1"/>
+<wire x1="91.5862" y1="32.7814" x2="91.6016" y2="32.766" width="0.3048" layer="1"/>
+<wire x1="91.6016" y1="32.766" x2="92.4814" y2="32.766" width="0.3048" layer="1"/>
+<wire x1="92.4814" y1="32.766" x2="92.7608" y2="32.4866" width="0.3048" layer="1"/>
+<wire x1="92.7608" y1="32.4866" x2="92.7608" y2="30.7848" width="0.3048" layer="1"/>
+<wire x1="92.7608" y1="30.7848" x2="92.2574" y2="30.2814" width="0.3048" layer="1"/>
+<wire x1="92.2574" y1="30.2814" x2="91.5862" y2="30.2814" width="0.3048" layer="1"/>
+<wire x1="93.9862" y1="30.2814" x2="93.9816" y2="30.2768" width="0.3048" layer="1"/>
+<wire x1="93.9816" y1="30.2768" x2="93.218" y2="30.2768" width="0.3048" layer="1"/>
+<wire x1="93.218" y1="30.2768" x2="92.7608" y2="30.734" width="0.3048" layer="1"/>
+<wire x1="92.7608" y1="30.734" x2="92.7608" y2="30.7848" width="0.3048" layer="1"/>
 <wire x1="133.8724" y1="38.7096" x2="137.9618" y2="38.5826" width="0" layer="19" extent="1-1"/>
 <wire x1="121.92" y1="45.7" x2="133.8724" y2="38.7096" width="0" layer="19" extent="1-1"/>
 <wire x1="89.3572" y1="41.7178" x2="84.1248" y2="44.7912" width="0" layer="19" extent="1-1"/>
@@ -1873,9 +1883,6 @@ design rules under a new name.</description>
 <wire x1="91.81" y1="38.5064" x2="91.81" y2="40.8178" width="0" layer="19" extent="1-1"/>
 <wire x1="91.81" y1="36.322" x2="91.81" y2="38.5064" width="0" layer="19" extent="1-1"/>
 <wire x1="91.5862" y1="34.0314" x2="91.81" y2="36.322" width="0" layer="19" extent="1-1"/>
-<wire x1="91.5862" y1="32.7814" x2="91.5862" y2="34.0314" width="0" layer="19" extent="1-1"/>
-<wire x1="91.5862" y1="30.2814" x2="91.5862" y2="32.7814" width="0" layer="19" extent="1-1"/>
-<wire x1="93.9862" y1="30.2814" x2="91.5862" y2="30.2814" width="0" layer="19" extent="1-1"/>
 <wire x1="87.3864" y1="38.548" x2="89.3572" y2="41.7178" width="0" layer="19" extent="1-1"/>
 <wire x1="85.4364" y1="29.098" x2="91.5862" y2="30.2814" width="0" layer="19" extent="1-1"/>
 <wire x1="85.471" y1="25.1096" x2="85.4364" y2="29.098" width="0" layer="19" extent="1-1"/>
@@ -1892,6 +1899,7 @@ design rules under a new name.</description>
 <wire x1="52.1716" y1="31.38" x2="54.2036" y2="31.38" width="0" layer="19" extent="1-1"/>
 <wire x1="104.9164" y1="23.6982" x2="93.9862" y2="30.2814" width="0" layer="19" extent="1-1"/>
 <wire x1="56.0082" y1="17.3194" x2="56.3626" y2="31.38" width="0" layer="19" extent="1-1"/>
+<wire x1="133.9434" y1="21.6814" x2="133.8724" y2="38.7096" width="0" layer="19" extent="1-1"/>
 <wire x1="28.1948" y1="23.5846" x2="52.1716" y2="31.38" width="0" layer="19" extent="1-1"/>
 <wire x1="21.7604" y1="21.7522" x2="25.5634" y2="21.717" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -1969,16 +1977,16 @@ design rules under a new name.</description>
 <contactref element="STM32F401RBT6" pad="46"/>
 <contactref element="U$2" pad="2"/>
 <contactref element="R20" pad="1"/>
-<wire x1="93.61" y1="38.5064" x2="87.3864" y2="37.548" width="0" layer="19" extent="1-1"/>
 <wire x1="85.4202" y1="49.0278" x2="88.773" y2="45.675" width="0.3048" layer="1"/>
 <wire x1="88.773" y1="45.675" x2="88.773" y2="37.7444" width="0.3048" layer="1"/>
 <wire x1="88.773" y1="37.7444" x2="88.5766" y2="37.548" width="0.3048" layer="1"/>
 <wire x1="88.5766" y1="37.548" x2="87.3864" y2="37.548" width="0.3048" layer="1"/>
+<wire x1="88.773" y1="37.7444" x2="93.61" y2="38.5064" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RFM_MISO">
 <contactref element="STM32F401RBT6" pad="35"/>
 <contactref element="U$8" pad="13"/>
-<wire x1="87.3864" y1="32.048" x2="133.8846" y2="27.6956" width="0" layer="19" extent="1-1"/>
+<wire x1="87.3864" y1="32.048" x2="153.6434" y2="29.5814" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPS_SCL">
 <contactref element="U$3" pad="6"/>
@@ -2288,23 +2296,23 @@ design rules under a new name.</description>
 <signal name="N$5">
 <contactref element="J$1" pad="SIG"/>
 <contactref element="U$8" pad="10"/>
-<wire x1="133.8846" y1="33.6956" x2="159.4358" y2="33.8582" width="0" layer="19" extent="1-1"/>
+<wire x1="153.6434" y1="23.5814" x2="159.639" y2="23.3934" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RFM_SCK">
 <contactref element="STM32F401RBT6" pad="29"/>
 <contactref element="U$8" pad="12"/>
-<wire x1="83.9364" y1="29.098" x2="133.8846" y2="29.6956" width="0" layer="19" extent="1-1"/>
+<wire x1="83.9364" y1="29.098" x2="153.6434" y2="27.5814" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RFM_MOSI">
 <contactref element="STM32F401RBT6" pad="36"/>
 <contactref element="U$8" pad="14"/>
-<wire x1="87.3864" y1="32.548" x2="133.8846" y2="25.6956" width="0" layer="19" extent="1-1"/>
+<wire x1="87.3864" y1="32.548" x2="153.6434" y2="31.5814" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RFM_RST">
 <contactref element="U$8" pad="1"/>
 <contactref element="C14_RFM69_1" pad="1"/>
 <contactref element="STM32F401RBT6" pad="34"/>
-<wire x1="130.9624" y1="21.3504" x2="153.5846" y2="21.6956" width="0" layer="19" extent="1-1"/>
+<wire x1="130.9624" y1="21.3504" x2="133.9434" y2="35.5814" width="0" layer="19" extent="1-1"/>
 <wire x1="87.3864" y1="31.548" x2="130.9624" y2="21.3504" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TIM3_CH1">
@@ -2395,7 +2403,6 @@ design rules under a new name.</description>
 <wire x1="61.5442" y1="53.6812" x2="61.5442" y2="52.8496" width="1.016" layer="1"/>
 <wire x1="61.5442" y1="52.8496" x2="60.9092" y2="52.2146" width="1.016" layer="1"/>
 <wire x1="60.9092" y1="52.2146" x2="60.132" y2="52.2146" width="1.016" layer="1"/>
-<wire x1="56.4642" y1="54.2598" x2="60.132" y2="52.2146" width="0" layer="19" extent="1-1"/>
 <wire x1="70.6882" y1="49.5808" x2="70.7136" y2="49.6062" width="1.016" layer="1"/>
 <wire x1="70.7136" y1="49.6062" x2="71.8058" y2="49.6062" width="1.016" layer="1"/>
 <via x="71.8058" y="49.6062" extent="1-16" drill="0.6" diameter="0.3048"/>
@@ -2404,6 +2411,7 @@ design rules under a new name.</description>
 <wire x1="75.4126" y1="49.6062" x2="75.4126" y2="52.1208" width="1.016" layer="1"/>
 <wire x1="75.4126" y1="52.1208" x2="73.1918" y2="54.3416" width="1.016" layer="1"/>
 <wire x1="73.1918" y1="54.3416" x2="66.7512" y2="54.3416" width="1.016" layer="1"/>
+<wire x1="60.132" y1="52.2146" x2="56.4642" y2="54.2598" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OTG_FS_SOF">
 <contactref element="STM32F401RBT6" pad="41"/>
@@ -2673,12 +2681,12 @@ design rules under a new name.</description>
 <signal name="RFM_NSS">
 <contactref element="STM32F401RBT6" pad="62"/>
 <contactref element="U$8" pad="15"/>
-<wire x1="78.9364" y1="40.498" x2="133.8846" y2="23.6956" width="0" layer="19" extent="1-1"/>
+<wire x1="78.9364" y1="40.498" x2="153.6434" y2="33.5814" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RFM_DI0">
 <contactref element="U$8" pad="2"/>
 <contactref element="STM32F401RBT6" pad="33"/>
-<wire x1="87.3864" y1="31.048" x2="153.5846" y2="23.6956" width="0" layer="19" extent="1-1"/>
+<wire x1="87.3864" y1="31.048" x2="133.9434" y2="33.5814" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="C21_MCP73831_VSS" pad="2"/>
