@@ -7092,6 +7092,7 @@ Distributor Buerklin, 11G810</description>
 <junction x="38.1" y="142.24"/>
 <pinref part="C18_STM32_48" gate="G$1" pin="1"/>
 <junction x="38.1" y="147.32"/>
+<junction x="45.72" y="127"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
@@ -7241,6 +7242,7 @@ Distributor Buerklin, 11G810</description>
 <pinref part="C12_RFM69_8" gate="G$1" pin="2"/>
 <junction x="358.14" y="50.8"/>
 <wire x1="358.14" y1="50.8" x2="365.76" y2="50.8" width="0.1524" layer="91"/>
+<junction x="375.92" y="30.48"/>
 </segment>
 <segment>
 <pinref part="U$8" gate="G$1" pin="RC"/>
@@ -7678,11 +7680,13 @@ Distributor Buerklin, 11G810</description>
 </net>
 <net name="GPS_SCL" class="0">
 <segment>
+<wire x1="289.56" y1="203.2" x2="297.18" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="203.2" x2="297.18" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="205.74" x2="325.12" y2="205.74" width="0.1524" layer="91"/>
 <label x="312.42" y="205.74" size="1.778" layer="95"/>
-<wire x1="297.18" y1="205.74" x2="297.18" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="203.2" x2="289.56" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="SCL"/>
-<wire x1="297.18" y1="208.28" x2="287.02" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="208.28" x2="287.02" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="287.02" y1="208.28" x2="284.48" y2="208.28" width="0.1524" layer="91"/>
 <junction x="287.02" y="208.28"/>
@@ -8116,6 +8120,7 @@ Distributor Buerklin, 11G810</description>
 <junction x="101.6" y="203.2"/>
 <wire x1="91.44" y1="203.2" x2="96.52" y2="203.2" width="0.1524" layer="91"/>
 <junction x="96.52" y="203.2"/>
+<junction x="91.44" y="203.2"/>
 </segment>
 </net>
 <net name="OTG_FS_SOF" class="0">
