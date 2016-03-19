@@ -19,7 +19,7 @@ module wingsection(sliceThickness,startChord,endChord){
     
 
 difference(){
-    wingthickness = 1;//mm
+    wingthickness = 2;//mm
     leadingEdgeChord = 5;
     trailingEdgeChord = 3;
     translate([-wingthickness,0,0]){
@@ -50,7 +50,7 @@ translate([0,0,0.2*25.4]){
 
 module wingHalf(){
     offset = (3.2-1.85)*25.4;
-    thickness = 1;
+    thickness = 2;
     length = 25.4*(1.85-0.15);
     difference(){
         union(){ 
