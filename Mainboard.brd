@@ -3382,24 +3382,30 @@ distributor Buerklin, 11G810</description>
 <signal name="N$4">
 </signal>
 <signal name="N$6">
-<via x="3.937" y="17.399" extent="1-16" drill="0.6"/>
+<via x="3.937" y="16.3576" extent="1-16" drill="0.6"/>
 <via x="5.4102" y="17.399" extent="1-16" drill="0.6"/>
 <via x="5.4102" y="16.3576" extent="1-16" drill="0.6"/>
 </signal>
 <signal name="N$7">
-<via x="46.736" y="17.399" extent="1-16" drill="0.6"/>
+<via x="46.7106" y="16.383" extent="1-16" drill="0.6"/>
 <via x="45.2628" y="17.4244" extent="1-16" drill="0.6"/>
 <via x="45.2882" y="16.383" extent="1-16" drill="0.6"/>
+<via x="41.529" y="13.4366" extent="1-16" drill="0.6"/>
+<via x="39.9796" y="13.4366" extent="1-16" drill="0.6"/>
 </signal>
 <signal name="N$8">
-<via x="115.6208" y="17.4244" extent="1-16" drill="0.6"/>
+<via x="115.6208" y="16.383" extent="1-16" drill="0.6"/>
 <via x="117.1956" y="17.4244" extent="1-16" drill="0.6"/>
-<via x="117.1956" y="16.4084" extent="1-16" drill="0.6"/>
+<via x="117.1956" y="16.383" extent="1-16" drill="0.6"/>
 </signal>
 <signal name="N$9">
-<via x="158.623" y="17.4244" extent="1-16" drill="0.6"/>
+<via x="158.6484" y="16.383" extent="1-16" drill="0.6"/>
 <via x="157.1498" y="17.4244" extent="1-16" drill="0.6"/>
-<via x="157.1498" y="16.4084" extent="1-16" drill="0.6"/>
+<via x="157.1498" y="16.383" extent="1-16" drill="0.6"/>
+</signal>
+<signal name="N$10">
+<via x="122.6566" y="13.2842" extent="1-16" drill="0.6"/>
+<via x="121.1072" y="13.2842" extent="1-16" drill="0.6"/>
 </signal>
 </signals>
 <errors>
