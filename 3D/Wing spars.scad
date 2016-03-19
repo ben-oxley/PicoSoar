@@ -1,11 +1,14 @@
 module wingEdge(startchord,endchord,leadingEdgeThickness,trailingEdgeThickness,thickness){
     mainWingLength = startchord-(leadingEdgeThickness);
     linear_extrude(height = thickness, convexity = 100, twist = 0,scale=[endchord/startchord,1-0.005*(abs(endchord-startchord))]){
+    
     translate([mainWingLength,0,0]){
+        scale([2,1,1,]){
     intersection(){
     square(leadingEdgeThickness,[0,0,0]);
     circle(r=leadingEdgeThickness);
     
+}
 }
     polygon(points=[[0,0],[0,leadingEdgeThickness],[-mainWingLength,trailingEdgeThickness],[-mainWingLength,0]]);
 }
@@ -16,23 +19,13 @@ module wingEdge(startchord,endchord,leadingEdgeThickness,trailingEdgeThickness,t
 //2.15inches at wing middle
 //front flat section at 0.2inches from center line
 module wingsection(sliceThickness,startChord,endChord){
-    
 
-difference(){
     wingthickness = 2;//mm
     leadingEdgeChord = 5;
-    trailingEdgeChord = 3;
+    trailingEdgeChord = 2;
     translate([-wingthickness,0,0]){
     wingEdge(startChord+wingthickness*2,endChord+wingthickness*2,leadingEdgeChord+wingthickness,trailingEdgeChord+wingthickness,sliceThickness);
     }
-    {
-
-    wingEdge(startChord,endChord,leadingEdgeChord,trailingEdgeChord,sliceThickness+2);
-        mirror([0,1,0]){
-            wingEdge(startChord,endChord,leadingEdgeChord,trailingEdgeChord,sliceThickness+2);
-        }
-    }
-}
 }
 
 module basicWingHalf(){
@@ -68,11 +61,46 @@ module wingHalf(){
     
 }
 
-rotate([0,0,177.5]){
-wingHalf();
-mirror([0,0,1]){
+module copy_mirror(vec) 
+{ 
+    children(); 
+    mirror(vec) children(); 
+} 
+
+
+
+//copy_mirror([0,1,0]){
+//copy_mirror([0,0,1]){
+//    wingHalf();
+//}
+//}
+//wingspan = 6.4*25.4;
+//thickness = 3;//mm
+//cube([50,50,(wingspan/4)-thickness]);
+difference(){
+difference(){
+    {
+copy_mirror([0,1,0]){
+copy_mirror([0,0,1]){
     wingHalf();
 }
 }
+}
+{
+    wingspan = 6.4*25.4;
+    thickness = 3;//mm
+    for (i = [1:1:4]){
+        translate([-10,-25,thickness-wingspan/2+((i-1)*(wingspan-thickness)/4)]){
+        cube([100,50,(wingspan/4)-(thickness)]);
+        }
+        
+    }
+}
+}
+translate([-50,-0.6,-100]){
+cube([100,1.2,200]);
+}
+}
+
 
 
