@@ -1,6 +1,6 @@
 module wingEdge(startchord,endchord,leadingEdgeThickness,trailingEdgeThickness,thickness){
     mainWingLength = startchord-(leadingEdgeThickness);
-    linear_extrude(height = thickness, convexity = 100, twist = 0,scale=[endchord/startchord,1]){
+    linear_extrude(height = thickness, convexity = 100, twist = 0,scale=[endchord/startchord,1-0.005*(abs(endchord-startchord))]){
     translate([mainWingLength,0,0]){
     intersection(){
     square(leadingEdgeThickness,[0,0,0]);
@@ -68,9 +68,11 @@ module wingHalf(){
     
 }
 
+rotate([0,0,177.5]){
 wingHalf();
 mirror([0,0,1]){
     wingHalf();
+}
 }
 
 
